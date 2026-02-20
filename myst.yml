@@ -44,7 +44,7 @@ project:
         - file: content/python_review/0_libraries.md
         - file: content/python_review/1_modules.md
         - file: content/python_review/visualization.md
-        #- file: content/python_review/1_loading_data.ipynb
+        - file: content/python_review/1_loading_data.ipynb
     #- file: content/intro_ML/module_1.ipynb       # dropdown menu
     #- file: content/data_preprocessing/module_2.ipynb          # dropdown menu
     #- file: content/models/module_3.ipynb
