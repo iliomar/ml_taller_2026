@@ -38,12 +38,12 @@ project:
     - file: index.md                      # the landing page
     - file: content/1_intro.md
     - file: content/python_review/intro.md          # dropdown menu
-      #children:
-        #- file: content/python_review/variables.md
-        #- file: content/python_review/2_listdict.md
-        #- file: content/python_review/0_libraries.md
-        #- file: content/python_review/1_modules.md
-        #- file: content/python_review/visualization.md
+      children:
+        - file: content/python_review/variables.md
+        - file: content/python_review/2_listdict.md
+        - file: content/python_review/0_libraries.md
+        - file: content/python_review/1_modules.md
+        - file: content/python_review/visualization.md
         #- file: content/python_review/1_loading_data.ipynb
     #- file: content/intro_ML/module_1.ipynb       # dropdown menu
     #- file: content/data_preprocessing/module_2.ipynb          # dropdown menu

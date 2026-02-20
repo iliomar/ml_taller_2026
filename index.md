@@ -1,5 +1,5 @@
 ---
-title: Jupyter Book 2 Workshop Template
+title: Bienvenidos
 site:
   hide_outline: true
   hide_toc: true
@@ -8,17 +8,17 @@ site:
 
 <div style="text-align: center">
 
-# Jupyter Book 2 Workshop Template
+# Bienvenidos al taller de Machine Learning!
 
 </div>
 
-```{figure} content/figures/logo.svg
-:width: 80%
+```{figure} content/figures/ML_logo.png
+:width: 100%
 :align: center
 ```
 
-_A GitHub Template repository designed for use in Jupyter Book 2 and MyST workshops._
+_Este taller ofrece una introducción a los principios de Machine Learning. El material ha sido desarrollado por:_
 
 <div style="text-align: center", font-size: 1.2em>
-Freek Pols, Luuk Fröling, Robert Lanzafame, Kirstie Whitaker, Jim Madge
+Iliomar Rodriguez Ramos y Juvenal Bassa
 </div>
