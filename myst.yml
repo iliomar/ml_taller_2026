@@ -47,7 +47,7 @@ project:
         - file: content/python_review/1_loading_data.ipynb
     - file: content/intro_ML/module_1.ipynb       # dropdown menu
     - file: content/data_preprocessing/module_2.ipynb          # dropdown menu
-   # - file: content/models/module_3.ipynb
+    - file: content/models/module_3.ipynb
     - file: content/resources.md 
   abbreviations:
     JB2: Jupyter Book 2
