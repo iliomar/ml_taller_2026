@@ -25,7 +25,7 @@ Aprenderás a:
 - entrenar un modelo de clasificación,
 - evaluar el modelo usando *accuracy* y una matriz de confusión.
 
-```{button-ref} modulo_5_proyecto_guiado_datos_reales_iris
+```{button-ref} Proyecto guiado con datos reales
 :color: primary
 :expand:
 Comenzar Proyecto 1
@@ -46,7 +46,7 @@ Aprenderás a:
 * evaluar su desempeño,
 * analizar algunos de los retos de visión computacional.
 
-```{button-ref} modulo_5_proyecto_guiado_cifar10
+```{button-ref} Proyecto guiado con Open Data usando CIFAR-10
 :color: primary
 :expand:
 Comenzar Proyecto 2
@@ -70,7 +70,7 @@ Aprenderás a:
 * interpretar predicciones,
 * evaluar el desempeño del modelo.
 
-```{button-ref} proyecto_1_wine_quality_logistic_regression
+```{button-ref} # Proyecto de clasificación de calidad de vino
 :color: primary
 :expand:
 Comenzar Proyecto 3

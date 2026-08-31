@@ -150,68 +150,84 @@ display: block;
 
 .welcome-title {
   text-align: center;
-  margin-top: 0.5rem;
-  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
-/* Main workshop logo */
+/* Main ML workshop logo */
 .workshop-logo {
-  display: flex;
-  justify-content: center;
-  margin: 1.5rem auto 2rem auto;
+  text-align: center;
+  margin: 2rem auto 3rem auto;
 }
 
 .workshop-logo img {
-  width: min(70%, 520px);
+  width: 430px;
+  max-width: 75%;
   height: auto;
+  display: inline-block;
 }
 
-/* UPRM + IRIS-HEP logos */
+/* Intro text */
+.workshop-intro {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.workshop-intro p {
+  margin-bottom: 0.8rem;
+}
+
+/* Authors */
+.authors {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-size: 1.05em;
+}
+
+/* Institutional logos */
 .institution-logos {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  gap: 2.5rem;
   margin: 1.5rem auto 2rem auto;
 }
 
-.institution-logos img {
-  height: 95px;
-  width: auto;
-  object-fit: contain;
+/* Different sizes because the logos have very different shapes */
+.institution-logos .iris-logo {
+  width: 120px;
+  height: auto;
 }
 
-/* Intro text and authors */
-.workshop-intro {
-  text-align: center;
-  max-width: 720px;
-  margin: 0 auto 2rem auto;
+.institution-logos .uprm-logo {
+  width: 85px;
+  height: auto;
 }
 
-.authors {
-  margin-top: 0.8rem;
-  font-size: 1.1em;
-  font-weight: 500;
-}
-
-/* Mobile layout */
+/* Mobile */
 @media (max-width: 700px) {
 
-  .institution-logos {
-    gap: 1.5rem;
-    flex-wrap: wrap;
-  }
-
-  .institution-logos img {
-    height: 70px;
-  }
-
   .workshop-logo img {
-    width: 90%;
+    width: 340px;
+    max-width: 90%;
   }
 
   .workshop-intro {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .institution-logos {
+    gap: 1.5rem;
+  }
+
+  .institution-logos .iris-logo {
+    width: 100px;
+  }
+
+  .institution-logos .uprm-logo {
+    width: 70px;
   }
 }

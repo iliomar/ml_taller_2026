@@ -52,8 +52,8 @@ project:
     - file: content/projects/index.md
       children:
       - file: content/projects/modulo_5_proyecto_guiado_datos_reales_iris.ipynb
-      - file: content/projects/modulo_5_proyecto_guiado_cifar10.ipynb
-      - file: content/projects/proyecto_1_wine_quality_logistic_regression.ipynb
+      - file: content/projects/modulo_5__2_proyecto_guiado_cifar10.ipynb
+      - file: content/projects/proyecto_2_wine_quality_logistic_regression.ipynb
     - file: content/resources.md 
   abbreviations:
     JB2: Jupyter Book 2
