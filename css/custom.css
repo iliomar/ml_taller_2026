@@ -161,8 +161,8 @@ display: block;
 }
 
 .workshop-logo img {
-  width: 430px;
-  max-width: 75%;
+  width: 600px;
+  max-width: 90%;
   height: auto;
   display: inline-block;
 }
@@ -202,7 +202,7 @@ display: block;
 }
 
 .institution-logos .uprm-logo {
-  width: 85px;
+  width: 60px;
   height: auto;
 }
 
