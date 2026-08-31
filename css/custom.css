@@ -148,70 +148,108 @@ display: block;
 
 /*LANDING PAGE*/
 
+/* Page title */
 .welcome-title {
   text-align: center;
   margin-top: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 
-/* Main ML workshop logo */
+
+/* MAIN MACHINE LEARNING LOGO */
+
 .workshop-logo {
+  width: 100%;
   text-align: center;
-  margin: 2rem auto 3rem auto;
+  margin: 2rem auto 4rem auto;
 }
 
-.workshop-logo img {
-  width: 600px;
-  max-width: 90%;
-  height: auto;
-  display: inline-block;
+.workshop-logo .ml-main-logo {
+  display: inline-block !important;
+
+  width: 500px !important;
+  max-width: 75% !important;
+
+  height: auto !important;
+
+  min-width: 0 !important;
+  max-height: none !important;
 }
 
-/* Intro text */
+
+/* DESCRIPTION */
+
 .workshop-intro {
   max-width: 700px;
   margin: 0 auto;
-  text-align: left;
 }
 
-.workshop-intro p {
-  margin-bottom: 0.8rem;
+.workshop-intro > p {
+  text-align: left;
+  margin-bottom: 1rem;
 }
+
 
 /* Authors */
 .authors {
   text-align: center;
   margin-top: 1rem;
   margin-bottom: 2rem;
+
   font-size: 1.05em;
 }
 
-/* Institutional logos */
+
+/* INSTITUTIONAL LOGOS */
+
 .institution-logos {
+  width: 100%;
+
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2.5rem;
+
+  gap: 2rem;
+
   margin: 1.5rem auto 2rem auto;
 }
 
-/* Different sizes because the logos have very different shapes */
+
+/* IRIS-HEP */
 .institution-logos .iris-logo {
-  width: 120px;
-  height: auto;
+  display: block !important;
+
+  width: 115px !important;
+  max-width: 115px !important;
+
+  height: auto !important;
+
+  min-width: 0 !important;
+  max-height: none !important;
 }
 
+
+/* UPRM */
 .institution-logos .uprm-logo {
-  width: 60px;
-  height: auto;
+  display: block !important;
+
+  width: 75px !important;
+  max-width: 75px !important;
+
+  height: auto !important;
+
+  min-width: 0 !important;
+  max-height: none !important;
 }
 
-/* Mobile */
+
+/* MOBILE */
+
 @media (max-width: 700px) {
 
-  .workshop-logo img {
-    width: 340px;
-    max-width: 90%;
+  .workshop-logo .ml-main-logo {
+    width: 380px !important;
+    max-width: 90% !important;
   }
 
   .workshop-intro {
@@ -224,10 +262,37 @@ display: block;
   }
 
   .institution-logos .iris-logo {
-    width: 100px;
+    width: 100px !important;
+    max-width: 100px !important;
   }
 
   .institution-logos .uprm-logo {
-    width: 70px;
+    width: 65px !important;
+    max-width: 65px !important;
   }
+}
+
+
+
+
+/* PROJECT BUTTONS */
+
+.project-button {
+  margin: 1.2rem 0 2rem 0;
+}
+
+.project-button a {
+  display: inline-block;
+  padding: 0.7rem 1.2rem;
+  border-radius: 6px;
+  background-color: #0b6fa4;
+  color: white !important;
+  text-decoration: none !important;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+.project-button a:hover {
+  opacity: 0.85;
+  transform: translateY(-1px);
 }

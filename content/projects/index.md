@@ -1,77 +1,44 @@
 ---
-title: Proyectos
+title: Bienvenidos
+
+site:
+  hide_outline: true
+  hide_toc: true
+  hide_title_block: true
 ---
 
-# Proyectos
+<div class="welcome-title">
 
-En esta sección pondremos en práctica los conceptos estudiados durante el
-taller mediante proyectos guiados de Machine Learning.
+# Bienvenidos al taller de Machine Learning!
 
-Los proyectos aumentan progresivamente en complejidad y utilizan diferentes
-tipos de datos: datos tabulares, imágenes y conjuntos de datos reales.
+</div>
 
----
+<div class="workshop-logo">
+  <img
+    class="ml-main-logo"
+    src="content/figures/ML_logo.png"
+    alt="Introducción al Machine Learning 2026">
+</div>
 
-## Proyecto 1 — Clasificación con Iris
+<div class="workshop-intro">
 
-En este primer proyecto construiremos un modelo de clasificación utilizando
-el conocido dataset **Iris**.
+*Este taller ofrece una introducción a los principios de Machine Learning.  
+El material ha sido desarrollado por:*
 
-Aprenderás a:
+<div class="authors">
+Iliomar Rodríguez Ramos y Juvenal Bassa
+</div>
 
-- cargar un dataset real,
-- explorar sus variables,
-- separar datos de entrenamiento y prueba,
-- entrenar un modelo de clasificación,
-- evaluar el modelo usando *accuracy* y una matriz de confusión.
+<div class="institution-logos">
+  <img
+    class="iris-logo"
+    src="content/figures/logo_iris_hep.png"
+    alt="IRIS-HEP">
 
-```{button-ref} Proyecto guiado con datos reales
-:color: primary
-:expand:
-Comenzar Proyecto 1
-```
+  <img
+    class="uprm-logo"
+    src="content/figures/logo_uprm.png"
+    alt="UPRM">
+</div>
 
-
-## Proyecto 2 — Clasificación de imágenes con CIFAR-10
-
-En este proyecto trabajaremos con **CIFAR-10**, un dataset abierto compuesto
-por imágenes pequeñas pertenecientes a diez categorías.
-
-Aprenderás a:
-
-* trabajar con datos de imágenes,
-* visualizar ejemplos del dataset,
-* preparar imágenes para Machine Learning,
-* entrenar un modelo de clasificación,
-* evaluar su desempeño,
-* analizar algunos de los retos de visión computacional.
-
-```{button-ref} Proyecto guiado con Open Data usando CIFAR-10
-:color: primary
-:expand:
-Comenzar Proyecto 2
-```
-
----
-
-## Proyecto 3 — Clasificación de calidad de vino
-
-En este proyecto utilizaremos un dataset de calidad de vino tinto para
-construir un modelo de clasificación utilizando **Logistic Regression**.
-
-El objetivo será determinar si un vino puede clasificarse como de buena
-calidad a partir de algunas de sus propiedades químicas.
-
-Aprenderás a:
-
-* seleccionar variables relevantes,
-* definir una variable objetivo,
-* entrenar una regresión logística,
-* interpretar predicciones,
-* evaluar el desempeño del modelo.
-
-```{button-ref} # Proyecto de clasificación de calidad de vino
-:color: primary
-:expand:
-Comenzar Proyecto 3
-```
+</div>
