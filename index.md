@@ -26,10 +26,10 @@ Iliomar Rodriguez Ramos y Juvenal Bassa
 <table style="margin: 1.5em auto; border: none; width: auto;">
   <tr>
     <td style="border: none; padding-right: 20px; text-align: center;">
-      <img src="content/figures/logo_uprm.png" alt="UPRM Logo" width="120">
+      <img src="content/figures/logo_uprm.png" alt="UPRM Logo" width="140">
     </td>
     <td style="border: none; text-align: center;">
-      <img src="content/figures/logo_iris_hep.png" alt="IRIS-HEP Logo" width="180">
+      <img src="content/figures/logo_iris_hep.png" alt="IRIS-HEP Logo" width="200">
     </td>
   </tr>
 </table>
