@@ -26,7 +26,7 @@ aside.admonition-experiment > div:first-child::before {
 }
 
 aside.admonition-experiment > div:first-child > div:first-child {
-  background-color: rgb(251, 183, 183); /* changes header color of text part
+  background-color: rgb(251, 183, 183); /* changes header color of text part*/
   margin-left: 0 !important; /* voorkomt dubbele margin */
 }
 
@@ -72,7 +72,7 @@ aside.admonition-intermezzo > div:first-child::before {
 }
 
 aside.admonition-intermezzo > div:first-child > div:first-child {
-  background-color: rgb(218, 154, 255); /* changes header color of text part
+  background-color: rgb(218, 154, 255); /* changes header color of text part */
   margin-left: 0 !important; /* voorkomt dubbele margin */
 }
 
@@ -109,14 +109,14 @@ aside.admonition-example > div:first-child {
 /* Icon */
 aside.admonition-example > div:first-child::before {
   content: "🔍";
-  color:rgb(12, 35, 64)
+  color:rgb(12, 35, 64);
   /* add padding left so it is not directly on the side*/
   padding-left: 0.2em;
   margin-left: 0.5em;
 }
 
 aside.admonition-example > div:first-child > div:first-child {
-  background-color: rgb(0, 118, 194); /* changes header color of text part
+  background-color: rgb(0, 118, 194); /* changes header color of text part */
   margin-left: 0 !important; /* voorkomt dubbele margin */
 }
 
@@ -143,3 +143,75 @@ display: block;
   filter: invert(1) brightness(1);
 }
 
+
+
+
+/*LANDING PAGE*/
+
+.welcome-title {
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Main workshop logo */
+.workshop-logo {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem auto 2rem auto;
+}
+
+.workshop-logo img {
+  width: min(70%, 520px);
+  height: auto;
+}
+
+/* UPRM + IRIS-HEP logos */
+.institution-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin: 1.5rem auto 2rem auto;
+}
+
+.institution-logos img {
+  height: 95px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* Intro text and authors */
+.workshop-intro {
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto 2rem auto;
+}
+
+.authors {
+  margin-top: 0.8rem;
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+/* Mobile layout */
+@media (max-width: 700px) {
+
+  .institution-logos {
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+
+  .institution-logos img {
+    height: 70px;
+  }
+
+  .workshop-logo img {
+    width: 90%;
+  }
+
+  .workshop-intro {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
